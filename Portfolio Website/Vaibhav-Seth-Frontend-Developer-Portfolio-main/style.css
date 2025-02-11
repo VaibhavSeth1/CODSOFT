@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   padding: 0;
   margin: 0;
@@ -7,17 +7,17 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Full Matte Black Background */
+
 body {
   background-color: black;
   color: white;
   display: block;
   height: 100vh;
   overflow-x: hidden;
-  /* Allows for scrolling */
+
 }
 
-/* Header/Navbar */
+
 .header {
   position: fixed;
   z-index: 20;
@@ -36,7 +36,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-/* Logo (Minimal "VS") */
+
 .logo {
   font-size: 40px;
   font-weight: 800;
@@ -50,7 +50,7 @@ body {
   transform: scale(1.1);
 }
 
-/* Navbar Links */
+
 .navbar {
   display: flex;
   gap: 30px;
@@ -66,7 +66,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* Neon Glow Hover Effect */
+
 .navbar a::after {
   content: "";
   position: absolute;
@@ -83,13 +83,13 @@ body {
   left: 0;
 }
 
-/* Hover Floating Effect */
+
 .navbar a:hover {
   color: #ffd700;
   transform: translateY(-3px);
 }
 
-/* "Hire Me" Button */
+
 .hire-btn {
   padding: 10px 30px;
   font-weight: 900;
@@ -107,7 +107,7 @@ body {
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
-/* Home Section */
+
 .home {
   width: 100%;
   min-height: 100vh;
@@ -155,7 +155,7 @@ img {
   width: 500px;
 }
 
-/* Button Box */
+
 .btn-box {
   display: flex;
   width: 310px;
@@ -163,7 +163,7 @@ img {
   justify-content: center;
 }
 
-/* Button Base Styles */
+
 .button {
   padding: 12px 30px;
   font-weight: 900;
@@ -176,28 +176,28 @@ img {
   transition: all 0.3s ease;
 }
 
-/* Hover Effect */
+
 .button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
-/* Specific Button Customization */
+
 #btn-1 {
   background: none;
   border: 2px solid #ffd700;
-  /* Gold border */
+  
   color: #ffd700;
-  /* Gold text */
+
 }
 
 #btn-1:hover {
   border-color: #ffd700;
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-  /* Gold glow */
+
 }
 
-/* Experience Button remains the same */
+
 #btn-2 {
   background: linear-gradient(90deg, #ff4500, #e94e77);
 }
@@ -205,36 +205,36 @@ img {
 #btn-2:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
-  /* Red glow */
+
   border-color: #e94e77;
 }
 
-/* Custom Scrollbar */
+
 ::-webkit-scrollbar {
   width: 5px;
-  /* Width of the scrollbar */
+
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #ff6a00;
-  /* Thumb color (orange) */
+  
   border-radius: 2px;
   border: 2px solid #ffd700;
-  /* Border around the thumb */
+  
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #ffd700;
-  /* Hover color for the thumb */
+
 }
 
 ::-webkit-scrollbar-track {
   background-color: #333;
-  /* Dark background for the scrollbar track */
+
   border-radius: 2px;
 }
 
-/* About Section */
+
 .about-me {
   display: flex;
   justify-content: center;
@@ -243,7 +243,7 @@ img {
   padding: 100px 12% 0;
   background-color: black;
   min-height: 100vh;
-  /* Ensures it takes full screen height */
+ 
 }
 
 .about-img {
@@ -281,7 +281,7 @@ img {
   margin-left: 0;
 }
 
-/* Full-Screen Skills Section */
+
 .skills-section {
   height: 100vh;
   background-color: black;
@@ -293,7 +293,7 @@ img {
   text-align: center;
 }
 
-/* Section Title */
+
 .skills-section h2 {
   text-align: center;
   font-size: 50px;
@@ -306,7 +306,7 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
-/* Skills Grid */
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -314,7 +314,7 @@ img {
   width: 80%;
 }
 
-/* Skill Card */
+
 .skill-card {
   background: rgba(255, 255, 255, 0.05);
   padding: 20px;
@@ -331,7 +331,7 @@ img {
   position: relative;
 }
 
-/* Icons */
+
 .skill-card i {
   font-size: 50px;
   margin-bottom: 10px;
@@ -340,19 +340,19 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
-/* Skill Name */
+
 .skill-card h3 {
   font-size: 22px;
 }
 
-/* Neon Glow & Scale Effect on Hover */
+
 .skill-card:hover {
   transform: scale(1.1);
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 140, 0, 0.6);
   border-color: rgba(255, 215, 0, 0.8);
 }
 
-/* Full-Screen Project Section */
+
 .projects-section {
   height: 100vh;
   color: white;
@@ -363,7 +363,7 @@ img {
   text-align: center;
 }
 
-/* Section Title */
+
 .projects-section h2 {
   text-align: center;
   font-size: 50px;
@@ -376,7 +376,7 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
-/* Projects Grid */
+
 .projects-container {
   display: flex;
   gap: 40px;
@@ -384,7 +384,7 @@ img {
   justify-content: center;
 }
 
-/* Project Card */
+
 .project-card {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
@@ -401,7 +401,7 @@ img {
   align-items: center;
 }
 
-/* Project Image */
+
 .project-card img {
   width: 100%;
   height: 250px;
@@ -410,7 +410,7 @@ img {
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Project Info */
+
 .project-info {
   padding: 20px;
   display: flex;
@@ -419,14 +419,14 @@ img {
   height: 100%;
 }
 
-/* Project Title */
+
 .project-info h3 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-/* Project Description */
+
 .project-info p {
   font-size: 16px;
   font-weight: 400;
@@ -434,7 +434,7 @@ img {
   color: #d1d1d1;
 }
 
-/* Project Link */
+
 .project-link {
   font-size: 18px;
   font-weight: 500;
@@ -446,13 +446,13 @@ img {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* Link Hover Effect */
+
 .project-link:hover {
   color: #ff6a00;
   transform: scale(1.05);
 }
 
-/* Neon Glow & Scale Effect on Hover */
+
 .project-card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 140, 0, 0.6);
@@ -502,7 +502,7 @@ img {
   margin-bottom: 3rem;
 }
 
-/* Footer */
+
 .footer {
   background-color: rgba(255, 255, 255, 0.05);
   padding: 50px 10%;
@@ -552,9 +552,9 @@ img {
 .social-icons {
   display: flex;
   justify-content: center;
-  /* Center icons horizontally */
+ 
   gap: 20px;
-  /* Space between icons */
+
   margin-top: 20px;
 }
 
@@ -571,13 +571,13 @@ img {
   height: 45px;
   transition: all 0.3s ease;
   box-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
-  /* Neon glow effect */
+
 }
 
-/* Neon Glow & Floating Effect */
+
 .social-icons a:hover {
   color: #ffd700;
-  /* Gold color */
+  
   border-color: #ffd700;
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 140, 0, 0.6);
   transform: translateY(-10px);
@@ -589,4 +589,4 @@ img {
   margin-top: 10px;
 }
 
-/*  */
+
