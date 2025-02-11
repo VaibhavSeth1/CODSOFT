@@ -10,9 +10,6 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-/* ==================== */
-/* Body & Background Video Animation */
-/* ==================== */
 
 body {
   background-color: black;
@@ -43,9 +40,6 @@ img {
   height: 100%;
 }
 
-/* ==================== */
-/* Navigation Bar Styling */
-/* ==================== */
 .navbar {
   position: relative;
   z-index: 1;
@@ -83,9 +77,7 @@ img {
   box-shadow: 0 0 5px white;
 }
 
-/* ==================== */
-/* Main Content Section Styling */
-/* ==================== */
+
 .content {
   position: relative;
   z-index: 1;
@@ -124,9 +116,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
 }
 
-/* ==================== */
-/* Our Works Section Styling */
-/* ==================== */
+
 .section-title {
   text-align: center;
   font-size: 4rem;
@@ -145,7 +135,7 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-/* Gallery Grid */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -155,7 +145,7 @@ p {
   margin: auto;
 }
 
-/* Gallery Items */
+
 .gallery-item {
   position: relative;
   border-radius: 15px;
@@ -163,7 +153,7 @@ p {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Images */
+
 .gallery-item img,
 .gallery-item video {
   width: 100%;
@@ -172,20 +162,20 @@ p {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Video Styling */
+
 .gallery-item video {
   object-fit: cover;
   height: 100%;
 }
 
-/* Hover Effects */
+
 .gallery-item:hover img,
 .gallery-item:hover video {
   transform: scale(1.1);
   filter: brightness(80%);
 }
 
-/* Overlay Text */
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -209,7 +199,7 @@ p {
   opacity: 1;
 }
 
-/* Description Text */
+
 .gallery-desc {
   text-align: center;
   color: #bbb;
@@ -227,9 +217,7 @@ p {
   text-decoration: underline;
 }
 
-/* ==================== */
-/* Skills Section Styling */
-/* ==================== */
+
 .skills-section h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
@@ -246,7 +234,7 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-/* Skills Container */
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -257,7 +245,7 @@ p {
   margin: auto;
 }
 
-/* Card Styling */
+
 .skill-card {
   background: #111;
   padding: 20px;
@@ -268,14 +256,14 @@ p {
   border: 2px solid rgba(79, 172, 254, 0.3);
 }
 
-/* Hover Effect with Glow */
+
 .skill-card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 5px 25px rgba(0, 242, 254, 0.6);
   border-color: rgba(79, 172, 254, 0.8);
 }
 
-/* Icons */
+
 .skill-card i {
   font-size: 2.5rem;
   background: linear-gradient(to right, #4facfe, #00f2fe);
@@ -284,7 +272,7 @@ p {
   margin-bottom: 10px;
 }
 
-/* Skill Title */
+
 .skill-card h3 {
   font-size: 1.2rem;
   font-weight: 400;
@@ -293,7 +281,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
 }
 
-/* Button Container */
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -302,7 +290,7 @@ p {
   margin-bottom: 200px;
 }
 
-/* General Button Styling */
+
 .btn {
   display: inline-block;
   padding: 12px 30px;
@@ -321,7 +309,7 @@ p {
   overflow: hidden;
 }
 
-/* Button Hover Effect */
+
 .btn:hover {
   background: linear-gradient(to right, #4facfe, #00f2fe);
   color: #000;
@@ -329,7 +317,7 @@ p {
   border-color: transparent;
 }
 
-/* Email Button Specific */
+
 .btn-email {
   background: linear-gradient(to right, #4facfe, #00f2fe);
   color: #000;
@@ -339,9 +327,7 @@ p {
   background: linear-gradient(to right, #00f2fe, #4facfe);
 }
 
-/* ==================== */
-/* About Section Styling */
-/* ==================== */
+
 .about-section {
   text-align: center;
   margin-bottom: 200px;
@@ -384,9 +370,7 @@ p {
   text-align: center;
 }
 
-/* ==================== */
-/* Contact Section Styling */
-/* ==================== */
+
 .contact-section {
   text-align: center;
   margin-bottom: 200px;
@@ -506,9 +490,7 @@ p {
 }
 
 
-/* ==================== */
-/* Footer Styling */
-/* ==================== */
+
 .footer {
   position: relative;
   z-index: 1;
